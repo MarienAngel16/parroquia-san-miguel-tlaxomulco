@@ -1,0 +1,150 @@
+
+
+.inicio /*Clase de la sección inicio que contiene las imágenes del index*/
+{
+position:relative; /*Esta clase es relativa para que al contener 
+                   objetos absolutos estos se muevan de acuerdo a la imagen,align-content: 
+                   en este caso los botones son absolutos y estan almacenados dentro de la división "inicio"*/
+}
+
+.boton {
+ text-decoration: none; /*No hay decoración en el texto*/
+ border: none; /*No hay borde en el botón*/
+ background-color: #088037; /*Color del botón VERDE*/  
+ text-align: center;/*El texto esta centrado sobre su respectiva linea*/
+ display: inline-block;/*Alrededor del botón hay un bloque*/
+ font-size: 30px; /*Es el tamaño de las letras*/
+ cursor: pointer; /*El cursor a usar será apuntador, la manita*/
+ width:248px; /*Anchura del botón*/
+ height:59px; /*Altura del botón*/
+}
+
+.boton .text
+{font-family: arial,helvetica;
+ position: relative;
+ top:10px;
+ color: white;  /*El color de texto es blanco*/
+ }
+
+ .boton:hover {
+      background:#27AE60 ; /*para que cambie de color los bloques de texto VERDE CLARO*/  
+                 }
+
+.button{position: absolute; /*el botón es absoluto para moverse dentro de la imagen*/
+ left:274px; /*posición a la derecha del boton*/
+ top:185px;} /*posición de arriba del botón*/
+
+.button2{position: absolute; /*el botón es absoluto para moverse dentro de la imagen*/
+ left:528px; /*posición a la derecha del boton*/
+ top:185px;} /*posición de arriba del botón*/
+ 
+.button3{position: absolute; 
+ left:782px; 
+ top:185px;} 
+
+/* --------------------Boton del párroco---------------------------*/
+
+.parroco .boton{position: absolute; 
+ left:1038px; 
+ top:515px;
+background-color: #e8c01f;/*Cambia el color del bloque a AMARILLO*/
+width: 626px; 
+height:48px;
+} 
+
+.parroco .boton:hover {
+      background:#F4D03F ; /*para que cambie de color los bloques de texto AMARILLO CLARO*/  
+                 }
+.parroco .boton .text
+{font-family: arial,helvetica;
+ position: relative;
+ top:1px;
+ color: black;  /*El color de texto es NEGRO*/
+ font-size: 35px; 
+ }
+ 
+/* --------------------Boton del comunicados especiales---------------------------*/
+/*Caben 8 botones en el apartado*/
+.comun .boton{
+background-color: #e8c01f;/*Cambia el color del bloque a AMARILLO*/
+width: 537px; 
+height:38px;
+} 
+
+.comun .boton:hover {
+      background:#F4D03F ; /*para que cambie de color los bloques de texto AMARILLO CLARO*/  
+                 }
+.comun .boton .text
+{font-family: arial,helvetica;
+ position: relative;
+ top:3px;
+ color: black;  /*El color de texto es NEGRO*/
+ font-size: 25px; 
+ }
+ 
+ .comun .com1 
+ {
+position: absolute; 
+left:1129px; 
+top:1185px;
+   
+ }
+ 
+  .comun .com2 
+ {
+position: absolute; 
+left:1129px; 
+top:1230px;
+   
+ }
+ 
+/* --------------------Boton con logos---------------------------*/ 
+ 
+ .face:hover{
+ background: white;
+ opacity:90%;
+ }
+ 
+  .maps:hover{
+ background: white;
+ opacity:90%;
+ }
+ 
+ .face {
+position: absolute;
+top:1659px;
+left:750px;
+width: 120px; 
+height: 120px;    
+ }
+ .maps {
+position: absolute;
+top:1652px;
+left:1031px;
+width: 120px; 
+height: 127px;    
+ }
+
+/* --------------------Galeria con scroll---------------------------*/ 
+.slider-container {
+  display: flex;
+  width: 852px;
+  height: 502px;
+  overflow-x: scroll;
+  
+ scroll-snap-type: x mandatory;
+ 
+ position: absolute;
+ left:268px;
+ top:1140px;
+}
+
+.slider-container img {
+scroll-snap-align: center;
+}
+
+.slider-container img .slider-item{
+width: 852px;
+height: 502px;}
+
+

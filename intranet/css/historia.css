@@ -1,0 +1,46 @@
+
+
+.inicio /*Clase de la sección inicio que contiene las imágenes del index*/
+{
+position:relative; /*Esta clase es relativa para que al contener 
+                   objetos absolutos estos se muevan de acuerdo a la imagen,align-content: 
+                   en este caso los botones son absolutos y estan almacenados dentro de la división "inicio"*/
+}
+
+.boton {
+ text-decoration: none; /*No hay decoración en el texto*/
+ border: none; /*No hay borde en el botón*/
+ background-color: #088037; /*Color del botón VERDE*/  
+ text-align: center;/*El texto esta centrado sobre su respectiva linea*/
+ display: inline-block;/*Alrededor del botón hay un bloque*/
+ font-size: 30px; /*Es el tamaño de las letras*/
+ cursor: pointer; /*El cursor a usar será apuntador, la manita*/
+ width:220px; /*Anchura del botón*/
+ height:52px; /*Altura del botón*/
+}
+
+.boton .text
+{font-family: arial,helvetica;
+ position: relative;
+ top:10px;
+ color: white;  /*El color de texto es blanco*/
+ }
+
+ .boton:hover {
+      background:#27AE60 ; /*para que cambie de color los bloques de texto VERDE CLARO*/  
+                 }
+
+.button{position: absolute; /*el botón es absoluto para moverse dentro de la imagen*/
+ left:1145px; /*posición a la derecha del boton*/
+ top:80px;} /*posición de arriba del botón*/
+
+.button2{position: absolute; /*el botón es absoluto para moverse dentro de la imagen*/
+ left:1369px; /*posición a la derecha del boton*/
+ top:80px;} /*posición de arriba del botón*/
+ 
+.button3{position: absolute; 
+ left:1592px; 
+ top:80px;} 
+
+
+

@@ -1,0 +1,75 @@
+
+* {
+    
+margin:0;
+padding:0;
+box-sizing: border-box;
+   
+}
+
+.form
+{
+    width:400px;
+    background: #640723 ;
+    padding:30px;
+    margin:auto;
+    margin-top: 100px;
+    border-radius:4px;
+    font-family:'calibri';
+    color: white;
+    }
+
+.form h4
+{
+    font-size:30px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.controles
+{
+    width:340px;
+    background: white;
+    padding: 10px;
+    border-radius:4px;
+    margin-bottom:15px;
+    border: 1px solid #DEC516 ;
+    font-family:'calibri';
+    font-size: 18px;
+}
+
+.form p
+{
+    height:40px;
+    text-align:center;
+    font-size:18px;   
+}
+
+.form a
+{
+    color:white;
+    text-decoration:none;
+}
+
+.form a:hover
+{
+    color:white;
+    text-decoration:underline;
+}
+
+.form .botones 
+{
+    width: 100%;
+    background:#16DE43 ;
+    border:none;
+    padding: 12px;
+    color:white;
+    margin: 16px 0;
+    font-size: 16px;
+       
+}
+
+.form .botones:hover
+{
+    background:#149D33 ;
+}
